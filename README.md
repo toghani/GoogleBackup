@@ -15,7 +15,20 @@ In recent weeks (late March 2021 - early April 2021), some changes appear to hav
 - Google 2FA
 - Google OAuth 2.0
 - Google Prompt
+- Firebase Remote Config
+- Firebase Auth
+- Google Workspace
+- Google Play Books
+- Google Ads
+- Google Play Console
+- Castbox
+- Google Scholar
+- Google Podcasts
+- Google Container Registry
 - Last.fm
+- Waze 
+- Google Family
+- Slite (slite.com)
 
 ### FAQ
 
@@ -43,7 +56,20 @@ In recent weeks (late March 2021 - early April 2021), some changes appear to hav
 - Google 2FA [منبع](https://twitter.com/only_sadeghi/status/1378437673162043392)
 - Google OAuth 2.0 [منبع](https://twitter.com/babakmhz/status/1378364207482212358)
 - Google Prompt [منبع](https://github.com/Hameds/GoogleBackup/issues/13)
+- Firebase Remote Config [منبع](https://twitter.com/behdad222/status/1378688158494289922) با این مورد عملاً اپ‌هایی که از این قابلیت استفاده می‌کنند امکان بروزرسانی راه‌دور تنظیمات نیست و برای کاربران بسیاری مشکل ایجاد خواهد کرد. این مساله حتی با VPN هم حل نمی‌شود
+- Firebase Auth: این سرویس قبلاً هم برای این تحریم بوده اما به کمک VPN می‌شده در اپ‌هایی که از این قابلیت استفاده کردند حساب کاربری ساخت یا وارد شد اما حالا حتی با VPN هم نمی‌شود این کار را کرد. اپ‌های زیادی از این قابلیت استفاده می‌کنند و این مساله برای کاربران مشکل ایجاد خواهد کرد.
+- Google Workspace [منبع](https://twitter.com/MesgariSaber/status/1378745573042487302)
+- Google Play Books [منبع](https://twitter.com/MesgariSaber/status/1378746603759144961)
+- Google Ads [منبع](https://twitter.com/alirezaord/status/1378417030500642823)
+- Google Play Console [منبع](https://twitter.com/MrOplus/status/1378780969637920776)
+- Castbox [منبع](https://twitter.com/AmirFouladvand/status/1379023024494678017)
+- Google Scholar [منبع](https://twitter.com/mohammadfrji/status/1379006969223208961)
+- Google Podcasts [منبع](https://github.com/Hameds/GoogleBackup/issues/31)
+- Google Container Registry [منبع](https://github.com/Hameds/GoogleBackup/issues/28)
 - Last.fm [منبع](https://twitter.com/don_wp/status/1378256122071687168)
+- Waze [منبع](https://github.com/Hameds/GoogleBackup/issues/27) در مورد این مسیریاب، کاربران دیگری هم به بروز خطا اشاره داشته‌اند
+- Google Family [منبع](https://github.com/Hameds/GoogleBackup/issues/27)
+- Slite [منبع](https://twitter.com/MesgariSaber/status/1378780262537048066)
 - اگر سرویس دیگری می‌شناسید لطفاً در بخش [Issues](https://github.com/Hameds/GoogleBackup/issues) اعلام کنید.
 
 **چه خطایی دریافت می‌شود؟**
@@ -61,6 +87,13 @@ In recent weeks (late March 2021 - early April 2021), some changes appear to hav
 
 بعد از دانلود فایل‌های بکاپ به روش اشاره شده در [این توییت](https://twitter.com/oraclenik/status/1378389345955155972) آن‌ها را رمزنگاری کنید.
 
+**خطای 403 زمان دانلود بکاپ**
+در بخش سوالات متداول توضیح داده شده که اگر خطای 403 دریافت کردید از VPN استفاده کنید. اما توجه داشته باشید که اگر چندین بار اقدام به دانلود کنید و خطا دریافت کنید 
+برای دانلود دچار مشکل خواهید شد
+
+![DownloadError](https://user-images.githubusercontent.com/47300215/113522101-4688ff00-95b3-11eb-98a8-94a74c4a33a4.png)
+
+در این شرایط مطابق توضیحی که در بخش سوالات متداول داده شده از One Drive مایکروسافت کمک بگیرید
 
 ## سوالات متداول
 
@@ -70,11 +103,13 @@ In recent weeks (late March 2021 - early April 2021), some changes appear to hav
 - بعد از اقدام به بکاپ، به من می‌گوید چند ساعت یا چند روز طول می‌کشد بکاپ آماده شود. چه کنم؟ نگران نباشید، خیلی زود لینک دانلود بکاپ ایمیل خواهد شد.
 - موقع دانلود فایل بکاپ با خطای 403 مواجه می‌شوم. چه کنم؟ از VPN استفاده کنید.
 - با وجود استفاده از VPN باز هم با خطای 403 در موقع دانلود بکاپ مواجه می‌شوم. چه کنم؟ از VPN دیگری استفاده کنید و نگران نباشید
+- با هیچ VPN نتوانستم فایل بکاپ را دانلود کنم. چه کنم؟ طبق راهنمایی [این توییت برای استفاده از OneDrive](https://twitter.com/hamidziaei/status/1378586883878440962) عمل کنید
 - اصلاً چرا باید بکاپ گرفت؟ صرفنظر از اینکه تحریم باشیم یا نباشیم، داشتن بکاپ از اطلاعات باعث آسودگی خاطر در زمان بحران‌های احتمالی است
+- برنامه‌نویس هستم و برای دسترسی به سرویس‌ها مشکل دارم. چه کنم؟ اگر اکانت شما غیرفعال نشده ظاهراً در حال حاضر از [fodve.org](http://fodev.org) برای دسترسی داشتن می‌تونید استفاده کنید.
 
 ## نشت‌های احتمالی
 یکی از موارد مهمی که باعث مواجه شدن با خطای 403 می‌شود استفاده از VPNهای متفرقه با شیرینگ زیاد است. 
-این VPNها باعث نشست‌های مختلف در سطوح مختلف می‌شوند و در نتیجه گوگل به مشخصات اصلی شما پی خواهد برد
+این VPNها باعث نشت‌های مختلف در سطوح مختلف می‌شوند و در نتیجه گوگل به مشخصات اصلی شما پی خواهد برد
 #### برخی از این نشت‌ها (leaks)
 ##### IP and DNS leaks
 این نشت زمانی اتفاق می‌افتد که VPN شما تنها برای گذر از فیلترینگ طراحی شده و توانایی رمزنگاری دیتا در سطح بالا را ندارد به همین دلیل آی‌پی اصلی شما مشخص خواهد شد
